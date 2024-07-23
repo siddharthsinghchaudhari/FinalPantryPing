@@ -1,0 +1,104 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.homepage-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.homepage-header h1 {
+  font-size: 2.5em;
+  color: #343a40;
+}
+
+.homepage-header p {
+  font-size: 1.2em;
+  color: #6c757d;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  background-color: #1c1414;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #343a40;
+}
+
+.card p {
+  font-size: 1em;
+  color: #6c757d;
+  padding: 0 10px 10px;
+}
+
+
+
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.order-status-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.order-status-button:hover {
+  background-color: #218838;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  z-index: 9999;
+}
